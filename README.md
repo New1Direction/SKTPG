@@ -35,16 +35,31 @@ Every conclusion is tagged by evidence strength: **Confirmed** · **Likely** · 
 
 ## Install
 
+SKTPG works on any platform that supports AI agent skills — Hermes, Claude Code, Cursor, Copilot, Codex, etc.
+
 ### Hermes Agent
 
 ```bash
-hermes skill install https://github.com/<your-org>/sktpg
+hermes skill install https://github.com/New1Direction/SKTPG
 ```
 
-Or clone and symlink:
+### Claude Code
+
+Clone the repo, then link the skill:
 
 ```bash
-git clone https://github.com/<your-org>/sktpg ~/.hermes/skills/intelligence/sktpg
+git clone https://github.com/New1Direction/SKTPG ~/.claude/skills/sktpg
+```
+
+Or use the plugin manifest if you publish via marketplace.
+
+### Any platform (manual)
+
+Clone the repo and symlink `SKILL.md` into your agent's skills directory:
+
+```bash
+git clone https://github.com/New1Direction/SKTPG ~/sktpg
+# then symlink SKILL.md or the whole folder into your agent's skills path
 ```
 
 Then use:
