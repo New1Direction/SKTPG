@@ -1,6 +1,6 @@
 # SKTPG — Skate Where The Puck Is Going
 
-**A directional intelligence skill for Hermes Agent.**
+**A directional intelligence skill for AI agents.**
 
 > *Skate where the puck is going, but show your evidence.*
 
