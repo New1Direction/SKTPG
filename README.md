@@ -18,6 +18,7 @@ Best: *What becomes obvious 6–18 months from now that is still non-obvious tod
 
 /sktpg forces you to stop thinking about "what is happening now?" and start thinking in:
 
+- **Reference class & base rate** — outside view first: how often things like this actually pan out, before any inside-view reasoning
 - **Weak signals** — early motion before consensus forms
 - **Hype vs real motion** — narrative separation with evidence
 - **Direction of travel** — vector, not point
@@ -26,6 +27,7 @@ Best: *What becomes obvious 6–18 months from now that is still non-obvious tod
 - **Second-order questions** — 10× cheaper? regulated? default infra?
 - **6–18 month forecasts** — base / bull / bear / wild card, all falsifiable
 - **Action maps** — what to do in 24h / 7d / 30d / before consensus
+- **Pre-mortem** — assume the thesis failed and explain why; bear case argued as hard as the bull case
 - **Tracking signals** — green / yellow / red scoreboard
 - **The SKTPG Thesis** — compact 6-line verdict
 

@@ -1,6 +1,6 @@
 ---
 name: sktpg
-description: 'SKTPG — Skate Where The Puck Is Going. Directional intelligence: weak-signal detection, hype separation, incentive mapping, second-order reasoning, action selection, forecast tracking. Not a summary skill — forces the question "what does this become?"'
+description: 'SKTPG — Skate Where The Puck Is Going. Directional intelligence: base-rate anchoring, weak-signal detection, hype separation, incentive mapping, second-order reasoning, pre-mortem stress-testing, action selection, forecast tracking. Not a summary skill — forces the question "what does this become?"'
 argument-hint: [url, repo, article, topic, event, claim]
 ---
 
@@ -12,7 +12,7 @@ Forces you to stop asking "what is happening now?" and start asking:
 
 **What is this becoming, what does it force next, what does that unlock, and what should I do before the market sees it?**
 
-The skill is for **directional intelligence**: weak-signal detection, hype separation, incentive mapping, second-order reasoning, action selection, and forecast tracking.
+The skill is for **directional intelligence**: base-rate anchoring, weak-signal detection, hype separation, incentive mapping, second-order reasoning, pre-mortem stress-testing, action selection, and forecast tracking.
 
 ## Core philosophy
 
@@ -24,7 +24,7 @@ Better: *What does this force next?*
 
 Best: *What becomes obvious 6–18 months from now that is still non-obvious today?*
 
-**Operating motto:** *Skate where the puck is going, but show your evidence.*
+**Operating motto:** *Skate where the puck is going, but show your evidence — and start from how often the puck actually gets there.*
 
 ## When to use this skill
 
@@ -53,7 +53,7 @@ If the input lacks enough evidence, still produce a useful first-pass forecast, 
 
 Move through this chain:
 
-**Signal → Evidence → Direction → Forces → Unlocks → Bottlenecks → Second-order effects → Actions → Tracking signals**
+**Base rate → Signal → Evidence → Direction → Forces → Unlocks → Bottlenecks → Second-order effects → Actions → Pre-mortem → Tracking signals**
 
 Every major conclusion must be classified by **evidence strength**:
 
@@ -66,6 +66,7 @@ Every major conclusion must be classified by **evidence strength**:
 | **Unknown** | Not enough evidence |
 
 Separate:
+- How often things like this actually pan out (the base rate)
 - What is happening now
 - What is changing
 - What this change forces next
@@ -73,6 +74,7 @@ Separate:
 - Who benefits
 - Who gets squeezed
 - What becomes obvious later
+- What would kill the thesis
 - What to do before it becomes obvious
 
 ## The SKTPG Loop
@@ -89,7 +91,23 @@ Answer briefly:
 
 ---
 
-### 2. Weak signals
+### 2. Reference class & base rate
+
+**Outside view first.** Before hunting for signals in *this* specific case, anchor on how often things *of this kind* actually pan out. This is the single biggest defense against confident-forecast-on-noise.
+
+- **Name the reference class.** Not "this repo / this protocol / this launch" but the honest comparison set: e.g. "open-source AI agent frameworks with GitHub traction but no revenue," "L2s that changed fee distribution," "API price cuts >50%," "dev tools that went from weekend hack to default," "tokens launched around a narrative." Pick the class an unenthusiastic outsider would file this under.
+- **State the base rate.** Of things in that class, what fraction actually became what the bull case claims? Give a number or range and tag its evidence strength. Be honest that most ambitious tech theses fizzle — the default prior is usually low.
+- **Name the usual cause of death.** How do things in this class normally die? (acquihired and shelved, never crossed the chasm, incumbent bundled it, ran out of runway, was a feature not a product, hype peaked then troughed, the "adopters" were demos not workflows.)
+- **Set the prior.** Before looking at anything specific: **[low / moderate / high]** odds the bull thesis plays out, because the base rate is ____.
+
+**Rule for the rest of the loop:** everything that follows (weak signals, incentives, bottlenecks) *adjusts this prior up or down* — it does not start from a blank slate. One strong signal nudges the prior; it does not override a 5% base rate by itself. "This time is different" is a claim that requires evidence, not enthusiasm.
+
+| Reference class | Base rate (est.) | Evidence strength | Usual cause of death | Starting prior |
+|---|---|---|---|---|
+
+---
+
+### 3. Weak signals
 
 List early signals that suggest motion before consensus forms.
 
@@ -106,11 +124,11 @@ Good weak signals include:
 - Money flowing into plumbing instead of flashy apps
 - Big players repositioning without saying the quiet part out loud
 
-For each weak signal, identify: **Signal → Why it matters → Evidence strength → What it might force next**
+For each weak signal, identify: **Signal → Why it matters → Evidence strength → What it might force next → Does it move the §2 prior?**
 
 ---
 
-### 3. Hype vs real motion
+### 4. Hype vs real motion
 
 Separate narrative from reality.
 
@@ -139,7 +157,7 @@ Separate narrative from reality.
 
 ---
 
-### 4. Direction of travel
+### 5. Direction of travel
 
 Identify the vector, not the point.
 
@@ -156,7 +174,7 @@ Ask:
 
 ---
 
-### 5. Incentive map
+### 6. Incentive map
 
 Map who is pulled or pushed by the trend. For each actor, explain what they want, what they fear, what they are forced to do next, and what they will probably do before they admit it publicly.
 
@@ -167,7 +185,7 @@ Actors may include: users, developers, startups, incumbents, platforms, regulato
 
 ---
 
-### 6. Bottleneck map
+### 7. Bottleneck map
 
 Find the bottleneck that currently limits adoption, then predict the next bottleneck if adoption succeeds.
 
@@ -182,7 +200,7 @@ Use this structure:
 
 ---
 
-### 7. Second-order questions
+### 8. Second-order questions
 
 Generate questions that reveal the non-obvious future. They should not be generic — they expose hidden leverage.
 
@@ -204,7 +222,7 @@ Question patterns:
 
 ---
 
-### 8. 6–18 month forecast
+### 9. 6–18 month forecast
 
 Produce a forecast with multiple confidence levels.
 
@@ -217,9 +235,11 @@ Produce a forecast with multiple confidence levels.
 
 Each forecast must include: time horizon, confidence level, key assumptions, evidence, and what would falsify it.
 
+**Calibrate against the base rate (§2).** State each case's confidence *relative to the reference-class hit rate*. If the bull case requires beating the base rate, say explicitly why this specific case clears the bar. A bull case that quietly assumes a 5%-base-rate class will behave like a 60%-base-rate class is not a forecast, it is a wish.
+
 ---
 
-### 9. What becomes obvious later
+### 10. What becomes obvious later
 
 **This is the heart of the skill.**
 
@@ -236,7 +256,7 @@ Each point needs an evidence note.
 
 ---
 
-### 10. What this forces next
+### 11. What this forces next
 
 Answer directly: *What does this force next?*
 
@@ -247,7 +267,7 @@ Examples: forces platforms to expose better APIs, forces teams to add verificati
 
 ---
 
-### 11. Action map
+### 12. Action map
 
 Turn the forecast into moves, divided by time horizon.
 
@@ -263,7 +283,34 @@ Turn the forecast into moves, divided by time horizon.
 
 ---
 
-### 12. Tracking signals
+### 13. Pre-mortem — kill the thesis before you commit to it
+
+Before stating the thesis, assume it already failed and explain why. This is the disconfirmation pass: argue the bear case as hard as you argued the bull case. If you cannot make the bear case hurt, you have not understood the bet.
+
+**Setup:** It is 18 months from now. The thesis was wrong, the opportunity evaporated, or the action lost time/money. Write the post-mortem.
+
+List **at least 3 distinct kill-paths**, each a concrete mechanism — not "it didn't work out." Draw from:
+- An incumbent shipped the feature for free / bundled it.
+- The bottleneck you bet on wasn't the real bottleneck.
+- "Adoption" was demos and stars, not workflows and retention (sampling bias — you saw the loud adopters, not the silent churn).
+- Incentives never aligned for the actor who actually had to move.
+- A cheaper or simpler substitute appeared.
+- A platform, API, or regulatory change closed the window.
+- The window was real but too early — right thesis, wrong decade.
+- Funding or attention dried up before the bottleneck broke.
+
+For each kill-path: **how likely, how early you'd see it coming, and whether the current thesis + action survives it or gets destroyed.**
+
+| Kill-path | Mechanism | Likelihood | Earliest warning | Does the plan survive it? |
+|---|---|---|---|---|
+
+**Output:** name which kill-paths are **unaddressed** by the current plan. These feed straight into the red flags in Tracking signals (§14) and must be reflected in the thesis confidence.
+
+**Honesty gate:** if 2+ high-likelihood kill-paths are unaddressed, the thesis must downgrade its confidence and the score must drop accordingly (see Scoring). A thesis that survives the pre-mortem only because you went easy on it is a failed pre-mortem.
+
+---
+
+### 14. Tracking signals
 
 Every forecast must include a scoreboard. Define what would prove the forecast right or wrong.
 
@@ -271,21 +318,25 @@ Every forecast must include a scoreboard. Define what would prove the forecast r
 - **Yellow flags:** Signals that suggest uncertainty or mixed evidence
 - **Red flags:** Signals that suggest the thesis is wrong
 
+**Red flags must include every unaddressed kill-path surfaced in the pre-mortem (§13)** — that is what turns the disconfirmation pass into something you can actually watch for.
+
 | Signal to watch | Green / Yellow / Red | Why it matters | Where to check |
 |---|---|---|---|
 
 ---
 
-### 13. Final thesis
+### 15. Final thesis
 
 End with a compact thesis:
 
 > **SKTPG Thesis:**
 > This is not about ____.
 > This is becoming ____.
+> The reference-class base rate is ____, and this clears / doesn't clear it because ____.
 > The forced next move is ____.
 > The non-obvious opportunity is ____.
 > The thing to do before consensus is ____.
+> The kill-paths the pre-mortem leaves unaddressed are ____.
 > The forecast is wrong if ____.
 
 ## Output template
@@ -296,54 +347,90 @@ End with a compact thesis:
 ## 1. Present-state snapshot
 ...
 
-## 2. Weak signals
-| Signal | Why it matters | Evidence strength | What it may force next |
-|---|---|---|---|
+## 2. Reference class & base rate
+| Reference class | Base rate (est.) | Evidence strength | Usual cause of death | Starting prior |
+|---|---|---|---|---|
 
-## 3. Hype vs real motion
+## 3. Weak signals
+| Signal | Why it matters | Evidence strength | What it may force next | Moves the prior? |
+|---|---|---|---|---|
+
+## 4. Hype vs real motion
 | Claim / narrative | Hype or motion? | Evidence | Verdict |
 |---|---|---|---|
 
-## 4. Direction of travel
+## 5. Direction of travel
 From → To → Because.
 
-## 5. Incentive map
+## 6. Incentive map
 | Actor | Incentive | Constraint | Forced next move | Opportunity |
 |---|---|---|---|---|
 
-## 6. Bottleneck map
+## 7. Bottleneck map
 Current bottleneck → weakening force → next bottleneck → who profits.
 
-## 7. Second-order questions
+## 8. Second-order questions
 | Question | Why it matters | What answer implies |
 |---|---|---|
 
-## 8. 6–18 month forecast
-Base / bull / bear / wild card.
+## 9. 6–18 month forecast
+Base / bull / bear / wild card — each calibrated against the §2 base rate.
 
-## 9. What becomes obvious later
+## 10. What becomes obvious later
 Bullets with evidence notes.
 
-## 10. What this forces next
+## 11. What this forces next
 | Forced move | Who is forced | Why | Timing | Confidence |
 |---|---|---|---|---|
 
-## 11. Action map
+## 12. Action map
 | Action | Why now | Cost | Upside | Evidence dependency |
 |---|---|---|---|---|
 
-## 12. Tracking signals
+## 13. Pre-mortem
+| Kill-path | Mechanism | Likelihood | Earliest warning | Plan survives? |
+|---|---|---|---|---|
+Unaddressed kill-paths: ____
+
+## 14. Tracking signals
 | Signal | Green / Yellow / Red | Why it matters | Where to check |
 |---|---|---|---|
 
-## 13. Final SKTPG thesis
+## 15. Final SKTPG thesis
 This is not about ____.
 This is becoming ____.
+The reference-class base rate is ____, and this clears / doesn't clear it because ____.
 The forced next move is ____.
 The non-obvious opportunity is ____.
 The thing to do before consensus is ____.
+The kill-paths left unaddressed are ____.
 The forecast is wrong if ____.
 ```
+
+## Output format
+
+The markdown loop (sections 1–15) is the **thinking scaffold**, not the deliverable. The final output is rendered as a single self-contained `.html` file.
+
+Requirements:
+
+- **Self-contained.** All CSS inline in one `<style>` block. No external fonts, CDNs, scripts, or network calls. The file must render correctly offline by double-clicking it.
+- **Evidence badges.** Render every evidence-strength tag as a colored pill so the page is scannable for proof-vs-guess: Confirmed (green), Likely (blue), Speculative (amber), Contradicted (red), Unknown (grey).
+- **Outside view up top.** Render the reference-class base rate (§2) near the top, as context for the whole read — the reader should see the prior *before* the bull case, not buried under it.
+- **Real tables.** Every table in the loop (reference class, weak signals, hype-vs-motion, incentive map, second-order questions, forces-next, action map, pre-mortem, tracking signals) renders as a styled `<table>` — not preformatted text.
+- **Pre-mortem visible.** Render the pre-mortem kill-paths (§13) as their own table, with unaddressed kill-paths flagged red. The failure modes should be as prominent as the opportunity, not a footnote.
+- **Score visual.** Show the 0–100 score as a bar or dial with the band label (Noise / Interesting / Watchlist / Actionable / Urgent) and the per-category breakdown.
+- **Thesis callout.** Render the final SKTPG thesis as a visually distinct block at the top of the report (above the fold) so a skimmer can't miss it.
+- **Tracking signals as a scoreboard.** Green/yellow/red flags render as a checklist the user can revisit later to grade the forecast — this is the part that compounds.
+
+Save the file as `sktpg-<topic-slug>-<YYYY-MM-DD>.html`, then **open it in the user's default browser** so the read appears immediately instead of leaving them to hunt for a path. Keep the entire read in one file.
+
+**Opening the file (cross-platform).** Detect the OS and run the matching command:
+- macOS: `open "<file>.html"`
+- Linux (desktop): `xdg-open "<file>.html"`
+- Windows: `start "" "<file>.html"`
+- WSL: `explorer.exe "<file>.html"` (or `wslview "<file>.html"`)
+
+If the environment is headless (CI, no display, SSH without forwarding) or the open command errors, skip silently — never block, hang, or fail the run on the open step. **Always print the saved path regardless**, so the user has it even when the browser didn't pop.
 
 ## Guardrails
 
@@ -355,6 +442,10 @@ The forecast is wrong if ____.
 - "The key uncertainty is…"
 
 **Avoid:** "This will definitely…", "Guaranteed…", "I am certain…", "This is the future…"
+
+**Outside view before inside view.** Establish the reference-class base rate before hunting for signals. A single strong signal adjusts the prior; it does not override a bad base rate. "This time is different" requires evidence, not enthusiasm.
+
+**Kill it before you commit it.** The thesis must survive the pre-mortem, not dodge it. Argue the bear case as hard as the bull case. If 2+ high-likelihood kill-paths are unaddressed, downgrade confidence and cap the score.
 
 **Do not summarize only.** A bad /sktpg answer summarizes the current event. A good /sktpg answer explains what the event forces next.
 
@@ -388,15 +479,18 @@ Score the opportunity from 0–100:
 - 61–80: Actionable early opportunity
 - 81–100: Strong directional opportunity with urgency
 
+**Calibration cap.** Sanity-check the total against §2 and §13: a score in the Actionable/Urgent bands (61+) requires the inside-view signal to clearly beat the reference-class base rate *and* most pre-mortem kill-paths to be addressed. If the base rate is low and high-likelihood kill-paths remain open, cap the score in the Watchlist band (≤60) regardless of how exciting the narrative is. The score reports the strength of the *evidence-adjusted* bet, not the strength of the story.
+
 ## Instructions
 
 1. Accept the user's input — a link, repo, article, topic, event, claim, or raw notes
 2. If a URL is provided, use web tools to gather current context about the topic
 3. If a repo is referenced, clone and inspect if needed for signal detection
-4. Run through the full SKTPG Loop (sections 1–13)
-5. Output using the template, with every conclusion classified by evidence strength
-6. Always end with the compact SKTPG Thesis
-7. Include the scoring system result at the end
+4. Run through the full SKTPG Loop (sections 1–15) as your reasoning scaffold — establish the base rate (§2) before building the inside-view case, and run the pre-mortem (§13) before committing to the thesis
+5. Classify every conclusion by evidence strength
+6. Render the final output as a single self-contained `.html` file per the Output format section — evidence badges, real tables, base-rate up top, pre-mortem visible, score visual, thesis callout
+7. Always include the compact SKTPG Thesis and the scoring result in the rendered file
+8. Save the file, open it in the user's default browser (cross-platform; skip silently if headless), and print the path
 
 ## Example usage
 
